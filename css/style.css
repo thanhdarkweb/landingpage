@@ -634,7 +634,7 @@ h1.text {
         text-align: center;
     }
     .content button {
-        margin: 40px;
+        margin: 40px 0;
     }
     .od-1 {
         order: 1;
