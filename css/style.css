@@ -157,10 +157,10 @@ li {
 
 .btn-video {
     border-radius: 100% !important;
-    width: 100px;
-    height: 100px;
-    top: 50%;
+    top: 40%;
     left: 50%;
+    width: 15%;
+    height: 25%;
     transform: translate(-50%);
     position: absolute;
 }
@@ -549,6 +549,9 @@ h1.text {
     .mr-2 {
         margin-right: 20px;
     }
+    .video .btn i {
+        font-size: 25px;
+    }
     .header-text {
         position: relative;
     }
@@ -631,7 +634,10 @@ h1.text {
         text-align: center;
     }
     .content button {
-        margin: 59px;
+        margin: 40px;
+    }
+    .od-1 {
+        order: 1;
     }
     .content-row {
         display: flex;
@@ -674,7 +680,7 @@ h1.text {
         transition: all 0.2s;
     }
     .pricing .card {
-        margin: 0 -20px;
+        margin: 0 -60px;
     }
     .card-body {
         padding: 40px !important;
