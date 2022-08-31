@@ -78,6 +78,7 @@ li {
 }
 .img-content {
     height: 100% !important;
+    max-width: 100% !important;
 }
 .header-hero-content {
     display: flex;
@@ -509,6 +510,7 @@ h1.text {
 .features-row {
     max-width: 869px;
 }
+
 .contact-right {
     flex-direction: column;
 }
@@ -529,8 +531,14 @@ h1.text {
     display: flex;
 }
 .contact-social-header a {
-    padding: 24px;
+    padding-left: 24px;
     align-items: center;
+}
+.contact-social-header a:nth-child(1) {
+    padding: 0;
+}
+.mr-2 {
+    margin-right: 20px;
 }
 /* Reponsive*/
 @media screen and (max-width: 900px) {
